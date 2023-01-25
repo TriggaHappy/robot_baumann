@@ -1,7 +1,7 @@
-all:Roboter.o Roboter
+all:robot.o robot
 
-Roboter.o:Roboter.c
-	cc -c Roboter.c
+robot.o:robot.c
+	cc -c robot.c
 
-Roboter:Roboter.o
-	cc -o Roboter Roboter.o
+robot:robot.o
+	cc -o robot robot.o
